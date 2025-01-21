@@ -84,19 +84,21 @@
     transition: color 0.5s, background-color 0.5s;
     text-decoration: none!important;
     color: #ffffff;
+    vertical-align: middle;
   }
   
   .social-link:hover {
-    background-color: hsl(14, 94%, 57%);
+    background-color: hsl(214, 94%, 57%);
     cursor: pointer;
     color: hsl(0, 0%, 12%);
     text-decoration: none!important;
   }
 
   .social-icon {
-    height: 1rem;
-    width: 1rem;
+    height: 1.2rem;
     vertical-align: middle;
+    margin-top: -.175rem;
+    margin-right: 0.5rem;
   }
   
   .attribution {
