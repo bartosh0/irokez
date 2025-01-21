@@ -88,6 +88,11 @@
     color: hsl(0, 0%, 12%);
     text-decoration: none!important;
   }
+
+  .social-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
   
   .attribution {
     font-size: 11px;
