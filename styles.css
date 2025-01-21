@@ -1,7 +1,11 @@
-@font-face {
-    font-family: "inter";
-    src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf");
-  }
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+} 
+
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, sans-serif; }
+}
   
   * {
     box-sizing: border-box;
